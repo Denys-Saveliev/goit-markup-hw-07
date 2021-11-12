@@ -1,0 +1,36 @@
+// *Utils
+@import "./utils/variables";
+@import "./utils/title--hidden";
+@import "./utils/visually-hidden";
+
+// *Base
+@import "./base/normalize";
+@import "./base/common";
+
+// *Components
+@import "./components/header";
+@import "./components/site-nav";
+@import "./components/auth-nav";
+@import "./components/section";
+@import "./components/container";
+@import "./components/logo";
+@import "./components/section-title";
+@import "./components/btn";
+@import "./components/social-link";
+@import "./components/social-icon";
+@import "./components/footer";
+@import "./components/contacts";
+@import "./components/join";
+@import "./components/sign";
+@import "./components/backdrop";
+@import "./components/modal";
+@import "./components/form";
+
+// *Layout
+@import "./layout.scss/Studio/hero";
+@import "./layout.scss/Studio/particular-qualities";
+@import "./layout.scss/Studio/description";
+@import "./layout.scss/Studio/team";
+@import "./layout.scss/Studio/clients";
+@import "./layout.scss/Portfolio/filter-list";
+@import "./layout.scss/Portfolio/cards-list";
