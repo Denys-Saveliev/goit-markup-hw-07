@@ -20,6 +20,16 @@
   overflow: hidden;
 }
 
+.social-link, .join__list, .sign__btn, .agreement, .agreement__label, .qualities__pic, .thumb, .social-link__list, .clients__link, .filter__list {
+  display: flex;
+  justify-content: center;
+}
+
+.sign__input::placeholder, .team__position, .cards__direction {
+  font-weight: 400;
+  font-size: 16px;
+}
+
 /*! modern-normalize v1.1.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
 /*
 Document
@@ -465,8 +475,6 @@ img {
 }
 
 .social-link {
-  display: flex;
-  justify-content: center;
   align-items: center;
   width: 44px;
   height: 44px;
@@ -544,11 +552,6 @@ img {
   color: #ffffff;
 }
 
-.join__list {
-  display: flex;
-  justify-content: center;
-}
-
 .join__item:not(:last-child) {
   margin-right: 10px;
 }
@@ -601,16 +604,12 @@ img {
 }
 
 .sign__input::placeholder {
-  font-weight: 400;
-  font-size: 16px;
   line-height: 1.25;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
 
 .sign__btn {
-  display: flex;
-  justify-content: center;
   align-items: center;
   padding: 10px 30px;
   height: 50px;
@@ -777,15 +776,11 @@ img {
 }
 
 .agreement {
-  display: flex;
-  justify-content: center;
   align-items: center;
   margin-bottom: 30px;
 }
 
 .agreement__label {
-  display: flex;
-  justify-content: center;
   align-items: center;
   font-weight: 400;
   font-size: 14px;
@@ -898,8 +893,6 @@ img {
 }
 
 .qualities__pic {
-  display: flex;
-  justify-content: center;
   padding: 25px 0;
   background-color: #f5f4fa;
   margin-bottom: 30px;
@@ -937,8 +930,6 @@ img {
 }
 
 .thumb {
-  display: flex;
-  justify-content: center;
   align-items: center;
   position: absolute;
   bottom: 0;
@@ -989,20 +980,13 @@ img {
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: .team__name title-text-color;
+  color: #212121;
 }
 
 .team__position {
   margin-bottom: 16px;
-  font-weight: 400;
-  font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-}
-
-.social-link__list {
-  display: flex;
-  justify-content: center;
 }
 
 .social-link__link {
@@ -1034,8 +1018,6 @@ img {
 }
 
 .clients__link {
-  display: flex;
-  justify-content: center;
   align-items: center;
   width: 170px;
   height: 92px;
@@ -1059,8 +1041,6 @@ img {
 }
 
 .filter__list {
-  display: flex;
-  justify-content: center;
   margin-bottom: 50px;
 }
 
@@ -1169,8 +1149,6 @@ img {
 }
 
 .cards__direction {
-  font-weight: 400;
-  font-size: 16px;
   line-height: 1.87;
   color: #757575;
 }

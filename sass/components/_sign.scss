@@ -31,16 +31,14 @@
 }
 
 .sign__input::placeholder {
-  font-weight: 400;
-  font-size: 16px;
+  @extend %Fontsdata;
   line-height: 1.25;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
 
 .sign__btn {
-  display: flex;
-  justify-content: center;
+  @extend %DFlex;
   align-items: center;
   padding: 10px 30px;
   height: 50px;

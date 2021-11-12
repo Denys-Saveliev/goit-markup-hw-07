@@ -7,8 +7,7 @@
 }
 
 .qualities__pic {
-  display: flex;
-  justify-content: center;
+  @extend %DFlex;
   padding: 25px 0;
   background-color: #f5f4fa;
   margin-bottom: 30px;

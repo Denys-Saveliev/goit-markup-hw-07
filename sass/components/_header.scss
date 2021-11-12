@@ -5,10 +5,10 @@
   z-index: 1;
   width: 100%;
   background-color: $hero-text-color;
-}
 
-.header--underline {
-  border-bottom: 1px solid #ececec;
+  &--underline {
+    border-bottom: 1px solid #ececec;
+  }
 }
 
 .header__container {

@@ -72,8 +72,7 @@
 }
 
 .cards__direction {
-  font-weight: 400;
-  font-size: 16px;
+  @extend %Fontsdata;
   line-height: 1.87;
   color: $primary-text-color;
 }

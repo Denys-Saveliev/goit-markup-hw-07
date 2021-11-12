@@ -1,6 +1,5 @@
 .filter__list {
-  display: flex;
-  justify-content: center;
+  @extend %DFlex;
   margin-bottom: 50px;
 }
 
