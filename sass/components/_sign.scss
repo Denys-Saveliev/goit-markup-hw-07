@@ -28,13 +28,13 @@
   border-radius: 4px;
   outline: none;
   background-color: $hero-footer-bg-color;
-}
 
-.sign__input::placeholder {
-  @extend %Fontsdata;
-  line-height: 1.25;
-  letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
+  &::placeholder {
+    @extend %Fontsdata;
+    line-height: 1.25;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+  }
 }
 
 .sign__btn {

@@ -8,7 +8,12 @@
 
 .description__item {
   position: relative;
+
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
+
 .thumb {
   @extend %DFlex;
   align-items: center;
@@ -26,8 +31,4 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: $hero-text-color;
-}
-
-.description__item:not(:last-child) {
-  margin-right: 30px;
 }

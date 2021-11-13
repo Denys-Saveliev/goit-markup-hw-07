@@ -6,7 +6,7 @@
   width: 100%;
   background-color: $hero-text-color;
 
-  &--underline {
+  .header--underline {
     border-bottom: 1px solid #ececec;
   }
 }
@@ -24,8 +24,8 @@
   padding-top: 24px;
   padding-bottom: 25px;
   margin-right: 93px;
-}
 
-.header__logo--black {
-  color: #000000;
+  &--black {
+    color: #000000;
+  }
 }
