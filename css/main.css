@@ -439,10 +439,10 @@ img {
 .logo {
   font-family: Raleway;
   font-weight: 700;
-  text-decoration: none;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+  text-decoration: none;
   color: #2196f3;
 }
 
@@ -538,7 +538,7 @@ img {
   margin-bottom: 20px;
   font-weight: 700;
   font-size: 14px;
-  line-height: calc(16 / 14);
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
@@ -576,7 +576,7 @@ img {
 
 .sign__label {
   margin-bottom: 20px;
-  font-weight: 700;
+  font-weight: 700px;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -684,9 +684,9 @@ img {
   font-weight: 700;
   font-size: 20px;
   line-height: 1.15;
+  letter-spacing: 0.03em;
   text-align: center;
   margin-bottom: 12px;
-  letter-spacing: 0.03em;
   color: #212121;
 }
 
@@ -1046,8 +1046,8 @@ img {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
-  text-align: center;
   letter-spacing: 0.03em;
+  text-align: center;
   cursor: pointer;
   color: #212121;
   background: #f5f4fa;
