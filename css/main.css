@@ -25,11 +25,6 @@
   justify-content: center;
 }
 
-.sign__input::placeholder, .team__position, .cards__direction {
-  font-weight: 400;
-  font-size: 16px;
-}
-
 /*! modern-normalize v1.1.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
 /*
 Document
@@ -600,6 +595,8 @@ img {
 }
 
 .sign__input::placeholder {
+  font-weight: 400;
+  font-size: 16px;
   line-height: 1.25;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
@@ -978,6 +975,8 @@ img {
 
 .team__position {
   margin-bottom: 16px;
+  font-weight: 400;
+  font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
 }
@@ -1138,6 +1137,8 @@ img {
 }
 
 .cards__direction {
+  font-weight: 400;
+  font-size: 16px;
   line-height: 1.87;
   color: #757575;
 }
