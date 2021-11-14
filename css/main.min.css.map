@@ -27,13 +27,13 @@
         "../sass/components/_backdrop.scss",
         "../sass/components/_modal.scss",
         "../sass/components/_form.scss",
-        "../sass/layout.scss/Studio/_hero.scss",
-        "../sass/layout.scss/Studio/_particular-qualities.scss",
-        "../sass/layout.scss/Studio/_description.scss",
-        "../sass/layout.scss/Studio/_team.scss",
-        "../sass/layout.scss/Studio/_clients.scss",
-        "../sass/layout.scss/Portfolio/_filter-list.scss",
-        "../sass/layout.scss/Portfolio/_cards-list.scss"
+        "../sass/layout/Studio/_hero.scss",
+        "../sass/layout/Studio/_particular-qualities.scss",
+        "../sass/layout/Studio/_description.scss",
+        "../sass/layout/Studio/_team.scss",
+        "../sass/layout/Studio/_clients.scss",
+        "../sass/layout/Portfolio/_filter-list.scss",
+        "../sass/layout/Portfolio/_cards-list.scss"
     ],
     "names": [],
     "file": "main.min.css"
