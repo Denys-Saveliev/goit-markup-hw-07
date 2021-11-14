@@ -6,7 +6,7 @@
   width: 100%;
   background-color: $hero-text-color;
 
-  .header--underline {
+  &--underline {
     border-bottom: 1px solid #ececec;
   }
 }
