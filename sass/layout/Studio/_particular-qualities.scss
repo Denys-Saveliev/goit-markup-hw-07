@@ -1,4 +1,4 @@
-.qualities__list {
+.qualities {
   display: flex;
 }
 
@@ -6,7 +6,7 @@
   margin-right: 30px;
 }
 
-.qualities__pic {
+.qualities__box {
   @extend %DFlex;
   padding: 25px 0;
   background-color: #f5f4fa;
@@ -14,7 +14,7 @@
   border-radius: 4px;
 }
 
-.qualities__subtitle {
+.qualities__title {
   margin-bottom: 10px;
   @include font(700, 14px, 1.14, 0.03em);  
   text-transform: uppercase;

@@ -6,7 +6,7 @@
   width: 100%;
   background-color: $hero-text-color;
 
-  &--underline {
+  &__border {
     border-bottom: 1px solid #ececec;
   }
 }
@@ -14,18 +14,4 @@
 .header__container {
   display: flex;
   align-items: center;
-}
-
-.header__navigation {
-  display: flex;
-}
-
-.header__logo {
-  padding-top: 24px;
-  padding-bottom: 25px;
-  margin-right: 93px;
-
-  &--black {
-    color: #000000;
-  }
 }

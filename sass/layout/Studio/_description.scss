@@ -1,8 +1,8 @@
-.description {
+.section--padding {
   padding-top: 0;
 }
 
-.description__list {
+.description {
   display: flex;
 }
 
@@ -14,7 +14,7 @@
   }
 }
 
-.thumb {
+.description__thumb {
   @extend %DFlex;
   align-items: center;
   position: absolute;
@@ -24,7 +24,7 @@
   background: rgba(47, 48, 58, 0.8);
 }
 
-.thumb__title {
+.description__text {
   @include font(700, 14px, 1.14, 0.03em);  
   text-transform: uppercase;
   color: $hero-text-color;
